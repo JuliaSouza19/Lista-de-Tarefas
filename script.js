@@ -1,5 +1,5 @@
 function adicionarTarefa() {          
-    //recebe valor do input do usuário
+    
     const inputTarefa = document.getElementById("inputTarefa")
     let tarefa = inputTarefa.value.trim ( )
     
@@ -17,7 +17,7 @@ function adicionarTarefa() {
         mensagem.style.color = "green";
         
         
-        //cria novo item (li) e insera na (lista ul)
+        
         const listaTarefas = document.getElementById("listaTarefas")
         let novaTarefa = document.createElement("li")
         novaTarefa.textContent = tarefa
@@ -28,7 +28,7 @@ function adicionarTarefa() {
 
     
     
-    //limpa o input do usuário
+    
     inputTarefa.value = ""
 
    
